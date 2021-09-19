@@ -20,7 +20,12 @@ function TodoForm(props) {
     resolver: yupResolver(schema),
   });
   const handleSubmit = (value) => {
-    console.log(value);
+    const { onSubmit } = props;
+    if (onSubmit) {
+      onSubmit(value);
+    }
+
+    form.reset();
   };
 
   return (

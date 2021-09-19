@@ -21,11 +21,11 @@ function TodoList(props) {
 
   return (
     <ul className='todo-list'>
-      {todoList.map((todo, index) => {
+      {todoList.map((todo, index) => (
         <li key={todo.id} onClick={() => handleTodoClick(todo, index)}>
           {todo.title}
-        </li>;
-      })}
+        </li>
+      ))}
     </ul>
   );
 }
