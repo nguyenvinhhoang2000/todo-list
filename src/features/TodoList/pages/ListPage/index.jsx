@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 import TodoForm from "../../components/TodoForm";
 import TodoList from "../../components/TodoList";
 
-ListPage.propTypes = {};
-
-function ListPage(props) {
+function ListPage() {
   const initTodoList = [
     {
       id: 1,
