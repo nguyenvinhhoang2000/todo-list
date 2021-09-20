@@ -6,13 +6,12 @@
   text-align: center;
   background-color: antiquewhite;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
 }
 
 .container {
-  height: 86%;
-  width: 90%;
+  max-width: 50%;
   margin: 0 auto;
   border-radius: 20px;
   padding-top: 30px;

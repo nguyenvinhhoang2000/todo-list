@@ -13,7 +13,7 @@ function ListPage() {
     {
       id: 2,
       title: "Sleep",
-      status: "new",
+      status: "completed",
     },
     {
       id: 3,
@@ -27,13 +27,18 @@ function ListPage() {
     },
     {
       id: 5,
-      title: "Learn ReactJS",
-      status: "new",
+      title: "Learn Javascript",
+      status: "completed",
     },
     {
       id: 6,
       title: "Learn NodeJs",
-      status: "completed",
+      status: "new",
+    },
+    {
+      id: 6,
+      title: "Learn ReactJS",
+      status: "new",
     },
   ];
 
@@ -100,7 +105,7 @@ function ListPage() {
 
   return (
     <div>
-      <h1>Todo List</h1>
+      <h1 className='title'>Todo List</h1>
       <TodoForm onSubmit={handleTodoSubmit} />
 
       <TodoList
