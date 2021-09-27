@@ -36,7 +36,7 @@ function ListPage() {
       status: "new",
     },
     {
-      id: 6,
+      id: 7,
       title: "Learn ReactJS",
       status: "new",
     },
